@@ -162,4 +162,15 @@ public class UtilityBelt
 
 		return result;
 	}
+
+	    // public static int findMin(ArrayList<Integer> digitList){
+    //     int tempMin = 0;
+    //     tempMin = digitList.get(0);
+    //     for(int i =0; i < digitList.size(); i++){
+    //         if(tempMin >= digitList.get(i)){
+    //             tempMin = digitList.get(i);
+    //         }
+    //     }
+    //     return tempMin;
+    // }
 }
