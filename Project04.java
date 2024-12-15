@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Project03 {
+public class Project04 {
     public static boolean repeatAllowed = false;
     public static boolean orderMatter = false;
     public static Scanner keyboard = new Scanner(System.in);
@@ -24,6 +24,7 @@ public class Project03 {
 
     }
 
+    //Finds all the Permutations and combonations with if tree
     public static String calculate(boolean repeatAllowed, boolean orderMatter, long n, long r) {
         long result = 0;
         String resultMSG = "Number of ";
@@ -62,13 +63,12 @@ public class Project03 {
         return resultMSG;
     }
 
+    //Collects users data form console
     public static long setIntegers(String prompt, long lower, long upper) {
         String temp;
         long result;
         boolean isNotValid;
-
-        isNotValid = true; // initialize all variables, Compiler will complain because they are initialized
-                           // in try/catch
+        isNotValid = true;
         result = 0;
 
         do {
@@ -91,6 +91,7 @@ public class Project03 {
         return result;
     }
 
+    //Collects users data form console
     public static boolean setBoolean(String prompt, String validChars) {
         String temp;
         boolean result = true;
@@ -124,6 +125,7 @@ public class Project03 {
         return result;
     }
 
+    //Math for factorial
     public static long factorial(long n) {
         long result = 1;
 
